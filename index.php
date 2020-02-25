@@ -1,5 +1,5 @@
 <?php
-include __DIR__ 'database.php';
+include __DIR__ . '/database.php';
 ?>
 
 
@@ -15,6 +15,14 @@ include __DIR__ 'database.php';
     <title>Php Dischi</title>
   </head>
   <body>
+    <header>
+
+    </header>
+    <main>
+      <div class="test">
+        <p><?php echo $database ?></p>
+      </div>
+    </main>
   <script src="dist/app.js"></script>
   </body>
 </html>
