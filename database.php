@@ -1,12 +1,7 @@
 <?php
 
 $database = [
-    [
-      'title' => 'New Jersey',
-      'author' => 'Bon Jovi',
-      'year' => 1988,
-      'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
-    ],
+
     [
       'title' => 'Meet The Residents',
       'author' => 'The Residents',
@@ -60,6 +55,12 @@ $database = [
       'author' => 'Infected Mushroom',
       'year' => 2015,
       'poster' => 'https://img.discogs.com/DLT-OUj7gVZx7HKJdvgRSycSkSY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6494888-1441233782-9963.jpeg.jpg'
+    ],
+    [
+      'title' => 'New Jersey',
+      'author' => 'Bon Jovi',
+      'year' => 1988,
+      'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
     ],
 
 ]
