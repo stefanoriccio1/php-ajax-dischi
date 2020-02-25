@@ -20,7 +20,9 @@ include __DIR__ . '/database.php';
     </header>
     <main>
       <div class="test">
-        <p><?php echo $database ?></p>
+        <?php foreach ($database as $disco) { ?>
+         <p><?php echo $disco['title'] ?></p>
+        <?php } ?>
       </div>
     </main>
   <script src="dist/app.js"></script>
