@@ -21,8 +21,11 @@ include __DIR__ . '/database.php';
     <main>
       <div class="test">
         <?php foreach ($database as $disco) { ?>
-         <p><?php echo $disco['title'] ?></p>
-        <?php } ?>
+          <img src="<?= $disco['poster'] ?>" alt="copertina">
+         <h2>Title: <?php echo $disco['title'] ?></h2>
+         <p>Author: <?php echo $disco['author'] ?></p>
+         <p>Year: <?php echo $disco['year'] ?></p>
+       <?php } ?>
       </div>
     </main>
   <script src="dist/app.js"></script>

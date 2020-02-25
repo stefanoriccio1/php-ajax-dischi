@@ -11,55 +11,55 @@ $database = [
       'title' => 'Meet The Residents',
       'author' => 'The Residents',
       'year' => 1974,
-      'poster' => 'https://www.discogs.com/The-Residents-Meet-The-Residents/master/20938#images/1888526'
+      'poster' => 'https://img.discogs.com/QktKUHPColJtfquM7l6VV_37_H4=/fit-in/579x579/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1189587-1211309867.jpeg.jpg'
     ],
     [
       'title' => 'Alberto Fortis',
       'author' => 'Alberto Fortis',
       'year' => 1979,
-      'poster' => 'https://www.discogs.com/Alberto-Fortis-Alberto-Fortis/release/1244826#images/4769505'
+      'poster' => 'https://img.discogs.com/nVRaIsO9ZJIbxRPAyV6ewdtVYiY=/fit-in/598x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1244826-1297613509.jpeg.jpg'
     ],
     [
       'title' => 'SxM',
       'author' => 'Sangue Misto',
       'year' => 1994,
-      'poster' => 'https://www.discogs.com/Sangue-Misto-SXM/master/297932#images/9060839'
+      'poster' => 'https://img.discogs.com/lBiJVoV97rueexLzgar-dZzWqMg=/fit-in/499x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1483648-1367564874-8607.jpeg.jpg'
     ],
     [
       'title' => 'Turbe Giovanili',
       'author' => 'Fabri Fibra',
       'year' => 2002,
-      'poster' => 'https://www.discogs.com/Fabri-Fibra-Turbe-Giovanili/master/469093#images/3407709'
+      'poster' => 'https://img.discogs.com/p6NxI93n4uL6fBnwGNBeN6pYay8=/fit-in/260x260/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2131089-1265722764.jpeg.jpg'
     ],
     [
       'title' => 'Storia Di Un Impiegato',
       'author' => 'Fabrizio De André',
       'year' => 1973,
-      'poster' => 'https://www.discogs.com/Fabrizio-De-Andr%C3%A9-Storia-Di-Un-Impiegato/release/1851110#images/42860842'
+      'poster' => 'https://img.discogs.com/thb8UCIbxB0M5Dr1DnW9XqeAvYs=/fit-in/600x583/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1851110-1572951747-4756.jpeg.jpg'
     ],
     [
       'title' => 'The Dark Side Of The Moon',
       'author' => 'Pink Floyd',
       'year' => 1973,
-      'poster' => 'https://www.discogs.com/Pink-Floyd-The-Dark-Side-Of-The-Moon/master/10362#images/24290820'
+      'poster' => 'https://img.discogs.com/jKTmuxcsYe2TqcahU3QqVXJLssU=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1873013-1471100381-3022.jpeg.jpg'
     ],
     [
       'title' => 'La Morte Dei Miracoli',
       'author' => 'Frankie Hi-NRG MC',
       'year' => 1997,
-      'poster' => 'https://www.discogs.com/Frankie-Hi-NRG-MC-La-Morte-Dei-Miracoli/master/328989#images/37514126'
+      'poster' => 'https://img.discogs.com/Vnuol3R_pAZoN85HQJtiNq4H8Jg=/fit-in/600x603/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3116351-1544307250-3532.jpeg.jpg'
     ],
     [
       'title' => 'I Borghesi',
       'author' => 'Giorgio Gaber',
       'year' => 1997,
-      'poster' => 'https://www.discogs.com/Giorgio-Gaber-I-Borghesi/master/745352#images/34324023'
+      'poster' => 'https://img.discogs.com/3bOgZzNTrk13VOD1tHmKx4FD0Uc=/fit-in/600x602/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-3141717-1526656536-4217.jpeg.jpg'
     ],
     [
       'title' => 'Friends On Mushrooms',
       'author' => 'Infected Mushroom',
       'year' => 2015,
-      'poster' => 'https://www.discogs.com/Infected-Mushroom-Friends-On-Mushrooms/master/780501#images/19827399'
+      'poster' => 'https://img.discogs.com/DLT-OUj7gVZx7HKJdvgRSycSkSY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6494888-1441233782-9963.jpeg.jpg'
     ],
 
 ]
