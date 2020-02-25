@@ -24,7 +24,7 @@ include __DIR__ . '/database.php';
       <div class="test flex">
         <?php foreach ($database as $disco) { ?>
           <div class="disk_container">
-            <img src="<?= $disco['poster'] ?>" alt="copertina">
+            <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
            <h2>Title: <?php echo $disco['title'] ?></h2>
            <p>Author: <?php echo $disco['author'] ?></p>
            <p>Year: <?php echo $disco['year'] ?></p>

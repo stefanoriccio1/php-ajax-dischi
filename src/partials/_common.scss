@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.poster{
+  width: 200px;
+  height: 200px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 body{
   background-color: red;
 }
