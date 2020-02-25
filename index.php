@@ -16,10 +16,12 @@ include __DIR__ . '/database.php';
   </head>
   <body>
     <header>
+      <div class="navbar">
 
+      </div>
     </header>
     <main>
-      <div class="test">
+      <div class="test flex">
         <?php foreach ($database as $disco) { ?>
           <div class="disk_container">
             <img src="<?= $disco['poster'] ?>" alt="copertina">
