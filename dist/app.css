@@ -1,6 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.disk_container {
+  height: 200px;
+  width: 125px;
+  background-color: black;
 }
-
+body{
+  background-color: red;
+}

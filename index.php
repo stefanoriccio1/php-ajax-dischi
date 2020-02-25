@@ -21,10 +21,12 @@ include __DIR__ . '/database.php';
     <main>
       <div class="test">
         <?php foreach ($database as $disco) { ?>
-          <img src="<?= $disco['poster'] ?>" alt="copertina">
-         <h2>Title: <?php echo $disco['title'] ?></h2>
-         <p>Author: <?php echo $disco['author'] ?></p>
-         <p>Year: <?php echo $disco['year'] ?></p>
+          <div class="disk_container">
+            <img src="<?= $disco['poster'] ?>" alt="copertina">
+           <h2>Title: <?php echo $disco['title'] ?></h2>
+           <p>Author: <?php echo $disco['author'] ?></p>
+           <p>Year: <?php echo $disco['year'] ?></p>
+         </div>
        <?php } ?>
       </div>
     </main>
