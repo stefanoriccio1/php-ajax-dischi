@@ -47,4 +47,8 @@ function getData(){
     error: function (richiesta, stato, errori) { alert("E' avvenuto un errore. " + errore);
     }
   });
-}
+};
+
+function getAuthor(){
+
+};
