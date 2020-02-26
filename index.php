@@ -26,8 +26,8 @@ include __DIR__ . '/database.php';
           <div class="disk_container">
             <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
            <h2><?php echo $disco['title'] ?></h2>
-           <p><?php echo $disco['author'] ?></p>
-           <p><?php echo $disco['year'] ?></p>
+           <p class= "author"><?php echo $disco['author'] ?></p>
+           <p class="year"><?php echo $disco['year'] ?></p>
          </div>
        <?php } ?>
       </div>

@@ -1,7 +1,7 @@
 .disk_container{
  @include disk_container;
  margin: 20px 20px 20px 0;
- font-size: 13px;
+ font-size: 14px;
  padding-top: 25px;
  text-align: center;
 }
@@ -9,4 +9,13 @@
   width: 200px;
   height: 200px;
   margin-bottom: 15px;
+}
+.main_container h2{
+  margin-bottom: 8px;
+}
+.author{
+  color: $diskTestColor;
+}
+.year{
+  font-size: 10px;
 }
