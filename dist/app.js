@@ -15825,17 +15825,23 @@ function printResults(results) {
   var source = $("#disk-template").html();
   var template = Handlebars.compile(source);
 
-  for (var i = 0; i < results.length; i++) {
-    results[i];
-    console.log(results[i].title);
-    var context = {
-      title: results[i].title,
-      author: results[i].author,
-      year: results[i].year,
-      poster: results[i].poster
-    };
-    var html = template(context);
-    $('.main_container').append(html);
+  if (results.length <= 0) {
+    alert('Spiacenti, non ci sono dischi disponiili');
+  } else {
+    for (var i = 0; i < results.length; i++) {
+      results[i];
+      console.log(results[i].title);
+      var context = {
+        title: results[i].title,
+        author: results[i].author,
+        year: results[i].year,
+        poster: results[i].poster
+      };
+      var html = template(context);
+      $('.main_container').append(html);
+    }
+
+    ;
   }
 
   ;
