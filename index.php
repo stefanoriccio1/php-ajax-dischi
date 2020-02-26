@@ -31,7 +31,7 @@
       <script id="disk-template" type="text/x-handlebars-template">
             <div class="disk_container">
               <img class="poster" src="{{poster}}" alt="copertina">
-              <h2> ?>{{title}}</h2>
+              <h2>{{title}}</h2>
               <p class= "author">{{author}}</p>
               <p class="year">{{year}}</p>
            </div>
