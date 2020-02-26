@@ -21,13 +21,13 @@ include __DIR__ . '/database.php';
       </div>
     </header>
     <main>
-      <div class="test flex">
+      <div class="main_container flex">
         <?php foreach ($database as $disco) { ?>
           <div class="disk_container">
             <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
-           <h2>Title: <?php echo $disco['title'] ?></h2>
-           <p>Author: <?php echo $disco['author'] ?></p>
-           <p>Year: <?php echo $disco['year'] ?></p>
+           <h2><?php echo $disco['title'] ?></h2>
+           <p><?php echo $disco['author'] ?></p>
+           <p><?php echo $disco['year'] ?></p>
          </div>
        <?php } ?>
       </div>

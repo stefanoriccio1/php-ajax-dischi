@@ -22,14 +22,18 @@ body {
 }
 
 .disk_container {
-  height: 300px;
+  height: 330px;
   width: 250px;
   background-color: black;
   margin: 20px 20px 20px 0;
+  font-size: 13px;
+  padding-top: 25px;
+  text-align: center;
 }
 
 .poster {
   width: 200px;
   height: 200px;
+  margin-bottom: 15px;
 }
 
