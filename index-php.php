@@ -1,7 +1,7 @@
 <?php
-  include __DIR__ . '/database.php';
-
+include __DIR__ . '/database.php';
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
