@@ -28,6 +28,7 @@ body {
 
 .navbar .logo {
   width: 80px;
+  margin-left: 15px;
 }
 
 .main_container h2 {
