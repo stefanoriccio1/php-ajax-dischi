@@ -2,16 +2,41 @@ const $ = require('jquery');
 const Handlebars = require('handlebars');
 
 $(document).ready(function(){
-  alert('ciao');
 
+ getData();
+
+
+});
+
+
+// FUNZIONI-------------------->
+
+function printResults(results){
+  var source = $("#disk-template").html();
+  var template = Handlebars.compile(source);
+
+  if (results.length > 0) {
+    for (var i = 0; i < results.length; i++) {
+      results[i]
+      console.log(results[i]);
+    };
+  }
+  else{
+    alert('Non ci sono dischi');
+  }
+};
+
+function getData(){
   $.ajax({
     url: "http://localhost:8888/php-ajax-dischi/server.php",
     method: "GET",
 
     success: function (data) {
-    console.log(data); },
+
+    printResults(data);
+    },
 
     error: function (richiesta, stato, errori) { alert("E' avvenuto un errore. " + errore);
     }
   });
-});
+}

@@ -25,21 +25,18 @@
     <main>
       <div class="main_container wrapper flex">
 
-        <?php if(!empty($database)): ?>
-          <?php foreach ($database as $disco) { ?>
-            <div class="disk_container">
-              <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
-              <h2><?php echo $disco['title'] ?></h2>
-              <p class= "author"><?php echo $disco['author'] ?></p>
-              <p class="year"><?php echo $disco['year'] ?></p>
-           </div>
-         <?php } ?>
-       <?php else: ?>
-          <h3>Non ci sono Dischi disponibili</h3>
-        <?php endif ?>
-
       </div>
     </main>
-  <script src="dist/app.js"></script>
+      <!-- handlebars template -->
+      <script id="disk-template" type="text/x-handlebars-template">
+            <div class="disk_container">
+              <img class="poster" src="{{poster}}" alt="copertina">
+              <h2> ?>{{title}}</h2>
+              <p class= "author">{{author}}</p>
+              <p class="year">{{year}}</p>
+           </div>
+      </script>
+          <!-- /handlebars template -->
+      <script src="dist/app.js"></script>
   </body>
 </html>
