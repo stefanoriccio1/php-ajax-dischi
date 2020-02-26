@@ -17,11 +17,13 @@ include __DIR__ . '/database.php';
   <body>
     <header>
       <div class="navbar">
-        <img class='logo' src="" alt="logo">
+        <div class="wrapper">
+          <img class='logo' src="img/spotify_logo.png" alt="logo">
+        </div>
       </div>
     </header>
     <main>
-      <div class="main_container flex">
+      <div class="main_container wrapper flex">
         <?php foreach ($database as $disco) { ?>
           <div class="disk_container">
             <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
