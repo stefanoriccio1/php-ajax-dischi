@@ -5,7 +5,6 @@ $(document).ready(function(){
 
  getData();
 
-
 });
 
 
@@ -14,24 +13,25 @@ $(document).ready(function(){
 function printResults(results){
   var source = $("#disk-template").html();
   var template = Handlebars.compile(source);
-    if(results.length <= 0){
+
+  if(results.length <= 0){
       alert('Spiacenti, non ci sono dischi disponiili')
-    }
-    else{
+  }
+  else{
     for (var i = 0; i < results.length; i++) {
       results[i]
       console.log(results[i].title);
 
-  var context={
-    title: results[i].title,
-    author: results[i].author,
-    year: results[i].year,
-    poster: results[i].poster,
+      var context={
+        title: results[i].title,
+        author: results[i].author,
+        year: results[i].year,
+        poster: results[i].poster,
+      };
+      var html = template(context);
+      $('.main_container').append(html);
+    };
   };
-  var html = template(context);
-  $('.main_container').append(html);
-};
-};
 };
 
 function getData(){
@@ -40,11 +40,11 @@ function getData(){
     method: "GET",
 
     success: function (data) {
-
-    printResults(data);
+      printResults(data);
     },
 
-    error: function (richiesta, stato, errori) { alert("E' avvenuto un errore. " + errore);
+    error: function (richiesta, stato, errori) {
+      alert("E' avvenuto un errore. " + errore);
     }
   });
 };

@@ -1,8 +1,7 @@
 <?php
-include __DIR__ . '/database.php';
+  include __DIR__ . '/database.php';
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -13,6 +12,7 @@ include __DIR__ . '/database.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link rel="stylesheet" href="dist/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <title>Php Dischi</title>
   </head>
   <body>
@@ -26,21 +26,18 @@ include __DIR__ . '/database.php';
     <main>
       <div class="main_container wrapper flex">
 
-        <?php if(!empty($database)): ?>
-          <?php foreach ($database as $disco) { ?>
-            <div class="disk_container">
-              <img class="poster" src="<?= $disco['poster'] ?>" alt="copertina">
-              <h2><?php echo $disco['title'] ?></h2>
-              <p class= "author"><?php echo $disco['author'] ?></p>
-              <p class="year"><?php echo $disco['year'] ?></p>
-           </div>
-         <?php } ?>
-       <?php else: ?>
-          <h3>Non ci sono Dischi disponibili</h3>
-        <?php endif ?>
-
       </div>
     </main>
-  <script src="dist/app.js"></script>
+      <!-- handlebars template -->
+      <script id="disk-template" type="text/x-handlebars-template">
+            <div class="disk_container">
+              <img class="poster" src="{{poster}}" alt="copertina">
+              <h2>{{title}}</h2>
+              <p class= "author">{{author}}</p>
+              <p class="year">{{year}}</p>
+           </div>
+      </script>
+          <!-- /handlebars template -->
+      <script src="dist/app.js"></script>
   </body>
 </html>
