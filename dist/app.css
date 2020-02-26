@@ -21,7 +21,11 @@ body {
   background-color: black;
 }
 
-.disk_container {
+.main_container h2 {
+  margin-bottom: 8px;
+}
+
+.main_container .disk_container {
   height: 330px;
   width: 250px;
   background-color: black;
@@ -31,21 +35,17 @@ body {
   text-align: center;
 }
 
-.poster {
+.main_container .disk_container .poster {
   width: 200px;
   height: 200px;
   margin-bottom: 15px;
 }
 
-.main_container h2 {
-  margin-bottom: 8px;
-}
-
-.author {
+.main_container .disk_container .author {
   color: grey;
 }
 
-.year {
+.main_container .disk_container .year {
   font-size: 10px;
 }
 

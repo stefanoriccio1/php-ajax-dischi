@@ -17,7 +17,7 @@ include __DIR__ . '/database.php';
   <body>
     <header>
       <div class="navbar">
-
+        <img class='logo' src="" alt="logo">
       </div>
     </header>
     <main>
