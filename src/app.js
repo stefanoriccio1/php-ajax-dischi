@@ -5,6 +5,27 @@ $(document).ready(function(){
 
  getData();
 
+
+ $("#select").change(function(){
+   var autore = $(this).val();
+   var figli = $(".main_container").children();
+
+   if(autore != 'all'){
+     for (let disk of figli){
+       if( $(disk).find('.author').text() != autore){
+         $(disk).hide();
+       }
+       else{
+        $(disk).show();
+       }
+     }
+    }
+  else{
+     for (let disk of figli){
+       $(disk).show();
+     }
+  }
+ });
 });
 
 
@@ -41,6 +62,7 @@ function getData(){
 
     success: function (data) {
       printResults(data);
+      getAuthorSelect(data);
     },
 
     error: function (richiesta, stato, errori) {
@@ -49,6 +71,8 @@ function getData(){
   });
 };
 
-function getAuthor(){
-
+function getAuthorSelect(data){
+  for (let disk of data){
+    $('#select').append($('<option value="' + disk.author +'">'+disk.author+'</option>'));
+  };
 };

@@ -18,8 +18,14 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="wrapper">
+        <div class="wrapper flex">
           <img class='logo' src="img/spotify_logo.png" alt="logo">
+          <div class="selection">
+            <select id="select">
+              <option value="all">All</option>
+
+            </select>
+          </div>
         </div>
       </div>
     </header>
